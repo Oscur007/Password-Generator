@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PassWord Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="box">
+        <div class="text">generate</div>
+        <div id="specialtext" class="text">Random Password</div>
+        <div id="rules">
+            <p>Rules</p>
+            <ul>
+                <li>Password must be 8-16 charecters long</li>
+                <li>must contain atleast 1 capital letter</li>
+                <li>must contain atleast 1 small letter</li>
+                <li>must contain atleast 1 number (0-9)</li>
+                <li>must contain atleast 1 special charecter</li>
+            </ul>
+        </div>
+        <div>
+            <input id="inputbox" type="text">
+        </div>
+        <div  id="btn">
+            <button onclick="gen()">Generate</button>
+            <button onclick="refresh()">Refresh</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
